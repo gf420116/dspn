@@ -1,7 +1,5 @@
 package com.gf.dspn.stream;
 
-import java.math.BigDecimal;
-
 public class SmsCustomerSendDetail {
 
     private int id;
