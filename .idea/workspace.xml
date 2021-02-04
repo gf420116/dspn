@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="add pattern create mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ParlourDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/bulider.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w1TV1sf1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ClassAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/MotorAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ObjectAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ReadXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/TwoWayAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/structure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/WuyuanSpecialty.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +56,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,6 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure\adapter" />
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\proxy" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\bulider" />
     </key>
@@ -73,6 +79,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\factory" />
     </key>
@@ -83,13 +90,13 @@
       <recent name="com.gf.dspn.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParlourDecorator">
-    <configuration name="FarmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.factory.FarmTest" />
+  <component name="RunManager" selected="Application.TwoWayAdapterTest">
+    <configuration name="ClassAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.ClassAdapterTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.factory.*" />
+          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParlourDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.bulider.ParlourDecorator" />
+    <configuration name="MotorAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.MotorAdapterTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.bulider.*" />
+          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoTypeCitation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.prototype.ProtoTypeCitation" />
+    <configuration name="ObjectAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.ObjectAdapterTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.prototype.*" />
+          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoTypeShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.prototype.ProtoTypeShape" />
+    <configuration name="TwoWayAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.TwoWayAdapterTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.prototype.*" />
+          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.prototype.PrototypeTest" />
+    <configuration name="WySpecialtyProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.proxy.WySpecialtyProxy" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.prototype.*" />
+          <option name="PATTERN" value="com.gf.dspn.pattern.structure.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,24 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParlourDecorator" />
-        <item itemvalue="Application.FarmTest" />
-        <item itemvalue="Application.PrototypeTest" />
-        <item itemvalue="Application.ProtoTypeShape" />
-        <item itemvalue="Application.ProtoTypeCitation" />
+        <item itemvalue="Application.TwoWayAdapterTest" />
+        <item itemvalue="Application.MotorAdapterTest" />
+        <item itemvalue="Application.ObjectAdapterTest" />
+        <item itemvalue="Application.ClassAdapterTest" />
+        <item itemvalue="Application.WySpecialtyProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +194,14 @@
       <workItem from="1610958781184" duration="3759000" />
       <workItem from="1611238346801" duration="664000" />
       <workItem from="1611294065195" duration="10376000" />
-      <workItem from="1611386826311" duration="5410000" />
+      <workItem from="1611386826311" duration="6136000" />
+      <workItem from="1611924707151" duration="1395000" />
+      <workItem from="1611981763495" duration="3212000" />
+      <workItem from="1612011256317" duration="1231000" />
+      <workItem from="1612165295684" duration="1448000" />
+      <workItem from="1612243576791" duration="611000" />
+      <workItem from="1612272672205" duration="1534000" />
+      <workItem from="1612442783810" duration="4427000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -208,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611306967812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add pattern create mode">
+      <created>1611392311678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611392311678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
