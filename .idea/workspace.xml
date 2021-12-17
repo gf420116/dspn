@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="add pattern create mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ClassAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/MotorAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ObjectAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/TwoWayAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/WuyuanSpecialty.jpg" afterDir="false" />
+    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="jdk base">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/config/MyConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/configimpl/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolAbortPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolCallerRunsPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardOldestPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolSerialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gf/dspn/mq/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/mq/ProducerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -48,21 +51,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,12 +80,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\jdkbase\deepcopy" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure\adapter" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\proxy" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\bulider" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,19 +96,20 @@
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\factory" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gf.dspn.thread.state" />
       <recent name="com.gf.dspn.mq" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gf.dspn.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoWayAdapterTest">
-    <configuration name="ClassAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.ClassAdapterTest" />
+  <component name="RunManager" selected="Application.ThreadPoolDiscardOldestPolicyTest">
+    <configuration name="ThreadPoolAbortPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolAbortPolicyTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
+          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.MotorAdapterTest" />
+    <configuration name="ThreadPoolCallerRunsPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolCallerRunsPolicyTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
+          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.ObjectAdapterTest" />
+    <configuration name="ThreadPoolDiscardOldestPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolDiscardOldestPolicyTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
+          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoWayAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.adapter.TwoWayAdapterTest" />
+    <configuration name="ThreadPoolDiscardPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolDiscardPolicyTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.structure.adapter.*" />
+          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WySpecialtyProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.pattern.structure.proxy.WySpecialtyProxy" />
+    <configuration name="ThreadPoolSerialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolSerialTest" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.pattern.structure.proxy.*" />
+          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoWayAdapterTest" />
-        <item itemvalue="Application.MotorAdapterTest" />
-        <item itemvalue="Application.ObjectAdapterTest" />
-        <item itemvalue="Application.ClassAdapterTest" />
-        <item itemvalue="Application.WySpecialtyProxy" />
+        <item itemvalue="Application.ThreadPoolDiscardOldestPolicyTest" />
+        <item itemvalue="Application.ThreadPoolDiscardPolicyTest" />
+        <item itemvalue="Application.ThreadPoolCallerRunsPolicyTest" />
+        <item itemvalue="Application.ThreadPoolAbortPolicyTest" />
+        <item itemvalue="Application.ThreadPoolSerialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +214,16 @@
       <workItem from="1612165295684" duration="1448000" />
       <workItem from="1612243576791" duration="611000" />
       <workItem from="1612272672205" duration="1534000" />
-      <workItem from="1612442783810" duration="4427000" />
+      <workItem from="1612442783810" duration="5730000" />
+      <workItem from="1612503566337" duration="1975000" />
+      <workItem from="1638689453349" duration="5267000" />
+      <workItem from="1638949244786" duration="2193000" />
+      <workItem from="1639201406325" duration="4006000" />
+      <workItem from="1639290446525" duration="816000" />
+      <workItem from="1639375935783" duration="5099000" />
+      <workItem from="1639550470522" duration="4549000" />
+      <workItem from="1639711248658" duration="2827000" />
+      <workItem from="1639717629043" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -231,11 +253,63 @@
       <option name="project" value="LOCAL" />
       <updated>1611392311678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add structure create mode proxy adapter">
+      <created>1612447341710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612447341710</updated>
+    </task>
+    <task id="LOCAL-00006" summary="thread base">
+      <created>1639290517924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639290517924</updated>
+    </task>
+    <task id="LOCAL-00007" summary="disable rokectmq">
+      <created>1639551527577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639551527577</updated>
+    </task>
+    <task id="LOCAL-00008" summary="jdk base">
+      <created>1639725489216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725489216</updated>
+    </task>
+    <task id="LOCAL-00009" summary="浅深拷贝">
+      <created>1639725582446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725582446</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jdk base">
+      <created>1639725690226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725690226</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -283,7 +357,12 @@
     <MESSAGE value="add base cfg" />
     <MESSAGE value="add roket mq jar achieve" />
     <MESSAGE value="add pattern create mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pattern create mode" />
+    <MESSAGE value="add structure create mode proxy adapter" />
+    <MESSAGE value="thread base" />
+    <MESSAGE value="disable rokectmq" />
+    <MESSAGE value="浅深拷贝" />
+    <MESSAGE value="jdk base" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,6 +381,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ParlourDecorator.java</url>
           <line>45</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/configimpl/MyInterceptor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/config/MyConfigurer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
