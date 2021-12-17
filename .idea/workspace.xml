@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="jdk base">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/config/MyConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/configimpl/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolAbortPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolCallerRunsPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardOldestPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolSerialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="thread pool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gf/dspn/mq/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/mq/ProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/rule/RuleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/rule1/RuleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/WuyuanSpecialty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/WuyuanSpecialty.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +83,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src" />
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\factory" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -169,19 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ThreadPoolDiscardOldestPolicyTest" />
@@ -223,7 +202,7 @@
       <workItem from="1639375935783" duration="5099000" />
       <workItem from="1639550470522" duration="4549000" />
       <workItem from="1639711248658" duration="2827000" />
-      <workItem from="1639717629043" duration="5511000" />
+      <workItem from="1639717629043" duration="5880000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -295,7 +274,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639725690226</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="cfg">
+      <created>1639725743212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725743212</updated>
+    </task>
+    <task id="LOCAL-00012" summary="spring Interceptor 拦截器">
+      <created>1639725806227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725806227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="thread pool">
+      <created>1639725828636</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639725828636</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +362,10 @@
     <MESSAGE value="disable rokectmq" />
     <MESSAGE value="浅深拷贝" />
     <MESSAGE value="jdk base" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk base" />
+    <MESSAGE value="cfg" />
+    <MESSAGE value="spring Interceptor 拦截器" />
+    <MESSAGE value="thread pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread pool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
