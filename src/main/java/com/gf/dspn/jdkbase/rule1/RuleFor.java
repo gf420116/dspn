@@ -1,4 +1,4 @@
-package com.gf.dspn.rule1;
+package com.gf.dspn.jdkbase.rule1;
 
 import java.util.ArrayList;
 import java.util.List;
