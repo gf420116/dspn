@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="thread pool">
+    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="java stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/math1/NormalDistributioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/rule/RuleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/rule1/RuleFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/WuyuanSpecialty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/WuyuanSpecialty.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,7 +94,20 @@
       <recent name="com.gf.dspn.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolDiscardOldestPolicyTest">
+  <component name="RunManager" selected="Application.NormalDistributioTest">
+    <configuration name="NormalDistributioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.math1.NormalDistributioTest" />
+      <module name="dspn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gf.dspn.math1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadPoolAbortPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolAbortPolicyTest" />
       <module name="dspn" />
@@ -148,26 +160,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolSerialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolSerialTest" />
-      <module name="dspn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NormalDistributioTest" />
         <item itemvalue="Application.ThreadPoolDiscardOldestPolicyTest" />
         <item itemvalue="Application.ThreadPoolDiscardPolicyTest" />
         <item itemvalue="Application.ThreadPoolCallerRunsPolicyTest" />
         <item itemvalue="Application.ThreadPoolAbortPolicyTest" />
-        <item itemvalue="Application.ThreadPoolSerialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +213,15 @@
       <workItem from="1639550470522" duration="4549000" />
       <workItem from="1639711248658" duration="2827000" />
       <workItem from="1639717629043" duration="5880000" />
+      <workItem from="1639726111396" duration="153000" />
+      <workItem from="1639726866796" duration="2645000" />
+      <workItem from="1639825898209" duration="1260000" />
+      <workItem from="1639882197616" duration="3412000" />
+      <workItem from="1639891365138" duration="3020000" />
+      <workItem from="1639979752778" duration="4588000" />
+      <workItem from="1640055240178" duration="1968000" />
+      <workItem from="1640502790794" duration="603000" />
+      <workItem from="1640573299239" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -295,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639725828636</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="upd 路径">
+      <created>1639726182777</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639726182777</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java stream">
+      <created>1639982113678</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639982113678</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +398,9 @@
     <MESSAGE value="cfg" />
     <MESSAGE value="spring Interceptor 拦截器" />
     <MESSAGE value="thread pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread pool" />
+    <MESSAGE value="upd 路径" />
+    <MESSAGE value="java stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="java stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
