@@ -27,7 +27,7 @@
 //     * 生产者的组名
 //     */
 //    @Value("${apache.rocketmq.producer.producerGroup}")
-//    private String producerGroup;
+//    private String producerGroupproducerGroup;
 //
 //    private DefaultMQProducer producer;
 //    /**

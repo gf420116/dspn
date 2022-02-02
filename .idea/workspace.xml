@@ -4,10 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="java stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/math1/NormalDistributioTest.java" afterDir="false" />
+    <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="java 代数函数">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletedFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/important/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/important/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/diffrent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/diffrent/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/diffrent/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/synchronize/InstanceCallable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletedFutureTestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/deepcopy/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/deepcopy/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/deepcopy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/deepcopy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/final2/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/final2/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/final2/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/final2/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/final2/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/final2/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/final2/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/final2/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/reflection/DebugInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/reflection/DebugInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/rule1/RuleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/rule1/RuleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/shallowcopy/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/shallowcopy/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/shallowcopy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/shallowcopy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/math1/NormalDistributioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/utils/math1/NormalDistributioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/mq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/mq/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/mq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/mq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ParlourDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/bulider/ParlourDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/bulider/ReadXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/bulider.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/bulider/bulider.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/bulider/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/factory/FarmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/factory/FarmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/factory/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/factory/ReadXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/factory/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/factory/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/factory/factory.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/factory/factory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/prototype/ProtoTypeCitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/prototype/ProtoTypeCitation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/prototype/ProtoTypeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/prototype/ProtoTypeShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/prototype/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/prototype/PrototypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/prototype/prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/prototype/prototype.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/singleton/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/singleton/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/singleton/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/singleton/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/singleton/singleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/singleton/singleton.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ClassAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/ClassAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/MotorAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/MotorAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ObjectAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/ObjectAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/ReadXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/TwoWayAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/TwoWayAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/adapter/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/adapter/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/proxy/WySpecialtyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/proxy/WySpecialtyProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/structure/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/structure/structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/MapStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/MapStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/ParallelStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/ParallelStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/SmsCustomerSendDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/SmsCustomerSendDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/stream/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/NoneLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/NoneLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/ObjectLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/ObjectLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/Signal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/Signal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/ThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/communication/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/communication/WaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/future/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/future/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolAbortPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/pool/ThreadPoolAbortPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolCallerRunsPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/pool/ThreadPoolCallerRunsPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardOldestPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/pool/ThreadPoolDiscardOldestPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolDiscardPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/pool/ThreadPoolDiscardPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/pool/ThreadPoolSerialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/pool/ThreadPoolSerialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/priority/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/priority/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/priority/machine/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/priority/machine/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/priority/threadgroup/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/priority/threadgroup/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/state/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/state/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/thread/threadgroup/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/thread/threadgroup/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +91,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit3 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,7 +140,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,11 +155,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\jdkbase\concurrent\completablefuture" />
+      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\jdkbase\deepcopy" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure\adapter" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\proxy" />
-      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src" />
-      <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\bulider" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -87,6 +171,7 @@
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\factory" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gf.dspn.jdkbase.concurrent.completablefuture" />
       <recent name="com.gf.dspn.thread.state" />
       <recent name="com.gf.dspn.mq" />
     </key>
@@ -94,13 +179,13 @@
       <recent name="com.gf.dspn.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NormalDistributioTest">
-    <configuration name="NormalDistributioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.math1.NormalDistributioTest" />
+  <component name="RunManager" selected="JUnit.CompletableFutureDemo.test8">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.Main2" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.math1.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolAbortPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolAbortPolicyTest" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.Main3" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolCallerRunsPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolCallerRunsPolicyTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.Test" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,50 +219,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDiscardOldestPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolDiscardOldestPolicyTest" />
+    <configuration name="CompletableFutureDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture" />
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.CompletableFutureDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDiscardPolicyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.thread.pool.ThreadPoolDiscardPolicyTest" />
+    <configuration name="CompletableFutureDemo.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.thread.pool.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture" />
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.CompletableFutureDemo" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NormalDistributioTest" />
-        <item itemvalue="Application.ThreadPoolDiscardOldestPolicyTest" />
-        <item itemvalue="Application.ThreadPoolDiscardPolicyTest" />
-        <item itemvalue="Application.ThreadPoolCallerRunsPolicyTest" />
-        <item itemvalue="Application.ThreadPoolAbortPolicyTest" />
+        <item itemvalue="JUnit.CompletableFutureDemo.test8" />
+        <item itemvalue="JUnit.CompletableFutureDemo.test1" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +301,13 @@
       <workItem from="1639979752778" duration="4588000" />
       <workItem from="1640055240178" duration="1968000" />
       <workItem from="1640502790794" duration="603000" />
-      <workItem from="1640573299239" duration="3172000" />
+      <workItem from="1640573299239" duration="10119000" />
+      <workItem from="1640607615783" duration="1730000" />
+      <workItem from="1640656174733" duration="90000" />
+      <workItem from="1641553995439" duration="2008000" />
+      <workItem from="1641608614921" duration="2457000" />
+      <workItem from="1641976678289" duration="2089000" />
+      <workItem from="1643596591256" duration="15096000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -328,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639982113678</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="java 代数函数">
+      <created>1640585591915</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640585591915</updated>
+    </task>
+    <task id="LOCAL-00017" summary="java 代数函数">
+      <created>1641976737916</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1641976737916</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +484,6 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add base cfg" />
@@ -400,7 +499,8 @@
     <MESSAGE value="thread pool" />
     <MESSAGE value="upd 路径" />
     <MESSAGE value="java stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="java stream" />
+    <MESSAGE value="java 代数函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 代数函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,12 +511,12 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/factory/ReadXML.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/factory/ReadXML.java</url>
           <line>16</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/pattern/bulider/ParlourDecorator.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/pattern/bulider/ParlourDecorator.java</url>
           <line>45</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
