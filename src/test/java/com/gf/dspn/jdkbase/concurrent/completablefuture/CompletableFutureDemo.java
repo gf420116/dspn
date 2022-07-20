@@ -107,6 +107,9 @@ public class CompletableFutureDemo {
         assertEquals("hello!world!nice!", future.get());
     }
 
+    /**
+     * 测试异常以及完成执行的处理.
+     */
     @Test
     public void test12() throws InterruptedException {
 
@@ -118,6 +121,14 @@ public class CompletableFutureDemo {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
+            if("a".equals(s)){
+                int n = 100;
+                int m = 0;
+                int tempCalculate = n/m;
+                return String.valueOf(tempCalculate);
+            }
+
             return s.toUpperCase();
         }).exceptionally(ex -> {
             System.out.println(ex.toString());// CompletionException
@@ -125,7 +136,7 @@ public class CompletableFutureDemo {
         }).whenComplete((res, ex) -> {
             // res 代表返回的结果
             // ex 的类型为 Throwable ，代表抛出的异常
-            System.out.println(res);
+            System.out.println("res:"+res);
 //            // 这里没有抛出异常所有为 null
 //            assertNull(ex);
         })).collect(Collectors.toList());

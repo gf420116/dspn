@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e90c111-d7e8-47ae-8f11-894d347ffd1a" name="Default Changelist" comment="all commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/important/Person2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/StringFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/AtomicTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/SumStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/concurrent/completablefuture/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/important/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/interview/important/Person2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/MapStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/versioneight/stream/MapStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletableFutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletedFutureTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gf/dspn/jdkbase/concurrent/completablefuture/CompletedFutureTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +105,9 @@
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\structure" />
       <recent name="D:\Program Files\JetBrains\IdeaProjects\exercise\dspn\src\main\java\com\gf\dspn\pattern\factory" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gf.dspn" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gf.dspn.jdkbase.concurrent.completablefuture" />
       <recent name="com.gf.dspn.thread.state" />
@@ -117,13 +122,39 @@
       <command value="main" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompletableFutureDemo.test12">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.Test" />
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="AtomicTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.AtomicTransfer" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gf.dspn.*" />
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.versioneight.stream.MapStream" />
+      <module name="dspn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.versioneight.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.StringFormat" />
+      <module name="dspn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gf.dspn.jdkbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.Test2" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.Test5" />
       <module name="dspn" />
       <extension name="coverage">
         <pattern>
@@ -157,52 +188,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureDemo.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dspn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture" />
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.CompletableFutureDemo" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureDemo.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dspn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gf.dspn.jdkbase.concurrent.completablefuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture" />
-      <option name="MAIN_CLASS_NAME" value="com.gf.dspn.jdkbase.concurrent.completablefuture.CompletableFutureDemo" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="JUnit.CompletableFutureDemo.test8" />
-      <item itemvalue="JUnit.CompletableFutureDemo.test12" />
+      <item itemvalue="Application.Test5" />
+      <item itemvalue="Application.AtomicTransfer" />
+      <item itemvalue="Application.MapStream" />
+      <item itemvalue="Application.StringFormat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CompletableFutureDemo.test12" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="JUnit.CompletableFutureDemo.test8" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringFormat" />
+        <item itemvalue="Application.MapStream" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.AtomicTransfer" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +265,20 @@
       <workItem from="1644826049654" duration="1699000" />
       <workItem from="1644832278963" duration="599000" />
       <workItem from="1644837298653" duration="2682000" />
-      <workItem from="1644902261443" duration="264000" />
+      <workItem from="1644902261443" duration="3261000" />
+      <workItem from="1645248364868" duration="232000" />
+      <workItem from="1645248941895" duration="35000" />
+      <workItem from="1645864381423" duration="173000" />
+      <workItem from="1645864569274" duration="23000" />
+      <workItem from="1646032769575" duration="4050000" />
+      <workItem from="1646193098669" duration="4188000" />
+      <workItem from="1646380660566" duration="57000" />
+      <workItem from="1646385761913" duration="1338000" />
+      <workItem from="1646544369458" duration="3149000" />
+      <workItem from="1646792624193" duration="1383000" />
+      <workItem from="1646830220088" duration="75000" />
+      <workItem from="1648187691379" duration="712000" />
+      <workItem from="1653203617352" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="add base cfg">
       <created>1609857153843</created>
@@ -394,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643784887501</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="all commit">
+      <created>1644902750043</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644902750043</updated>
+    </task>
+    <task id="LOCAL-00020" summary="all commit">
+      <created>1644902783965</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644902783965</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,6 +552,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/Test1.java</url>
           <line>16</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/StringFormat.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gf/dspn/jdkbase/StringFormat.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

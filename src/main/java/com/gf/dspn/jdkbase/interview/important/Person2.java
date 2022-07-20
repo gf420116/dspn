@@ -27,23 +27,23 @@ public class Person2 {
     }
 
     public static void main(String[] args) {
-//        Person2 xiaoZhang = new Person2("小张");
-//        change(xiaoZhang);
-//        System.out.println(xiaoZhang.getName());
+        Person2 xiaoZhang = new Person2("小张");
+        change(xiaoZhang);
+        System.out.println(xiaoZhang.getName());
 
 //        closeObj2(xiaoZhang);
 //        xiaoZhang = null;
 //        System.out.println(xiaoZhang == null);
 
-        Integer n = 3;
-        Integer m = 1;
-        System.out.println(n + m);
+//        Integer n = 3;
+//        Integer m = 1;
+//        System.out.println(n + m);
 
     }
 
-//    public static void change(Person2 person) {
-//        person.setName("小张儿子");
-//    }
+    public static void change(Person2 person) {
+        person.setName("小张儿子");
+    }
 
 //    private static void closeObj2(Person2 xiaoZhang){
 //        if (xiaoZhang != null) {

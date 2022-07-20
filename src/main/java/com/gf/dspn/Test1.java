@@ -21,9 +21,13 @@ public class Test1 {
         } catch (Exception e) {
             // e.toString()不打印异常信息
             //log.error("请检查参数运算{},{}",n,m,e);
-            log.error("请检查参数运算{},{},{}",n,m,e);
-            System.out.println("----------------");
-            System.out.println(e.toString());
+//            log.error("请检查参数运算{},{},{}",n,m,e);
+//            System.out.println("----------------");
+//            // java.lang.ArithmeticException: / by zero
+//            System.out.println(e.toString());
+//            log.error("请检查参数运算{},{},{}",n,m,e.toString());
+
+            log.error("{},堆栈异常", "logPrefix", e);
         }
     }
 }

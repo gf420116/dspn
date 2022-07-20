@@ -12,6 +12,8 @@ import java.util.concurrent.CompletableFuture;
  * thenApplyAsync()用于串行化另一个CompletableFuture；
  * anyOf()和allOf()用于并行化多个CompletableFutures
  *
+ * 除了anyOf()可以实现“任意个CompletableFuture只要一个成功”，allOf()可以实现“所有CompletableFuture都必须成功”，这些组合操作可以实现非常复杂的异步流程控制
+ *
  * @author doublej
  * @date 2022-02-01 15:48
  */

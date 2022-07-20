@@ -21,6 +21,7 @@ public class MapStream {
         }
 
         listHuman.stream().map(vo->{
+            System.out.println(vo);
             return vo;
         }).collect(Collectors.toList());
     }
